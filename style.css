@@ -4,6 +4,33 @@
     box-sizing: border-box;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    border-bottom: 2px white dashed;
+}
+
 h1 {
     width: 100%;
     text-align: center;
