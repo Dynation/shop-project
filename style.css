@@ -95,3 +95,9 @@ h1 {
 .add-to-cart:hover {
     background-color: rgb(43, 146, 53);
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        justify-content: center;
+    }
+}
